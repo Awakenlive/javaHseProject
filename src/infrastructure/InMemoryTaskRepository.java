@@ -1,6 +1,6 @@
 package infrastructure;
 
-import domain.entites.Task;
+import domain.entities.Task;
 import domain.repository.taskRepository;
 
 import java.util.*;

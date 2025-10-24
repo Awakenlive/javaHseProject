@@ -1,7 +1,7 @@
-package useCases;
+package application.useCases;
 
-import domain.entites.Task;
-import domain.entites.priority;
+import domain.entities.Task;
+import domain.entities.priority;
 import domain.repository.taskRepository;
 
 import java.time.LocalDate;
@@ -14,7 +14,7 @@ public class createTask {
     }
 
 
-    public Task createTask(long id, String title, String description,
+    public Task newTask(long id, String title, String description,
                            LocalDate date, priority priorityTask, boolean completed){
 
         if (title == null || title.trim().isEmpty()){

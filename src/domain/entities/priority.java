@@ -1,4 +1,4 @@
-package domain.entites;
+package domain.entities;
 
 public enum priority {
     LOW("Низкий"),

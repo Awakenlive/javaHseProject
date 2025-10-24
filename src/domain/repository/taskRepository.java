@@ -1,6 +1,6 @@
 package domain.repository;
 
-import domain.entites.Task;
+import domain.entities.Task;
 import java.util.List;
 import java.util.Optional;
 
@@ -15,3 +15,5 @@ public interface taskRepository {
 
     List<Task> findByTitleContaining(String title);
 }
+// Здесь интерфейсы без конкретной реализации, их реализация хранится в InMemoryTaskRepository
+// Это сделано для того, чтобы domain не зависит от конкретной реализации и её можно подменить если что

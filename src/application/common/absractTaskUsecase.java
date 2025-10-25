@@ -1,6 +1,5 @@
 package application.common;
 
-import domain.entities.priority;
 import domain.repository.taskRepository;
 import domain.entities.Task;
 

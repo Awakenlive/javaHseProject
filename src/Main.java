@@ -8,7 +8,6 @@ public class Main {
         try{
             System.out.print("Запускаем программу");
             taskRepository repository = new InMemoryTaskRepository();
-
             changePriority switchPriority = new changePriority(repository);
             createTask newTask = new createTask(repository);
             deadlineCreate ddCreate = new deadlineCreate(repository);
@@ -35,3 +34,5 @@ public class Main {
         }
     }
 }
+
+//
